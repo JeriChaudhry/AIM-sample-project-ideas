@@ -45,8 +45,7 @@ If the model struggles with recognition, I will train the model to recognise eac
 
 **VIII)** This should result in a fine trained model which will successfully classify our text, including both lower-case and upper-case letters,
           and combine this to recognise the names, and then produce them digitally. 
-
-![alt text](3.png)
+          
 ![alt text](5.jpeg)
 
 ## References
