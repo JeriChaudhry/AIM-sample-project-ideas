@@ -60,3 +60,6 @@ Liu, Li, et al. “Deep Learning for Generic Object Detection: A Survey.” Inte
 
 Zaidi, Syed Sahil Abbas, et al. A Survey of Modern Deep Learning Based Object Detection Models. arXiv, 12 May 2021. arXiv.org, https://doi.org/10.48550/arXiv.2104.11892.
 
+
+
+
