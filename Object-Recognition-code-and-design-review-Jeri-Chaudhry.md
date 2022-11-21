@@ -50,15 +50,13 @@ If the model struggles with recognition, I will train the model to recognise eac
 
 ## References
 
-Data set - https://www.kaggle.com/datasets/landlord/handwriting-recognition?resource=download
+[1] Data set - https://www.kaggle.com/datasets/landlord/handwriting-recognition?resource=download
 
-https://arxiv.org/pdf/2104.11892.pdf
+[2] Jonathan Chung. Handwriting recognition and language modeling with MXNet Gluon. https://medium.com/apache-mxnet/handwriting-ocr-handwriting-recognition-and-language-modeling-with-mxnet-gluon-4c7165788c67
 
-Jonathan Chung. Handwriting recognition and language modeling with MXNet Gluon. https://medium.com/apache-mxnet/handwriting-ocr-handwriting-recognition-and-language-modeling-with-mxnet-gluon-4c7165788c67
+[3] Liu, Li, et al. “Deep Learning for Generic Object Detection: A Survey.” International Journal of Computer Vision, vol. 128, no. 2, Feb. 2020, pp. 261–318. Springer Link, https://doi.org/10.1007/s11263-019-01247-4.
 
-Liu, Li, et al. “Deep Learning for Generic Object Detection: A Survey.” International Journal of Computer Vision, vol. 128, no. 2, Feb. 2020, pp. 261–318. Springer Link, https://doi.org/10.1007/s11263-019-01247-4.
-
-Zaidi, Syed Sahil Abbas, et al. A Survey of Modern Deep Learning Based Object Detection Models. arXiv, 12 May 2021. arXiv.org, https://doi.org/10.48550/arXiv.2104.11892.
+[4] Zaidi, Syed Sahil Abbas, et al. A Survey of Modern Deep Learning Based Object Detection Models. arXiv, 12 May 2021. arXiv.org, https://doi.org/10.48550/arXiv.2104.11892.
 
 
 
