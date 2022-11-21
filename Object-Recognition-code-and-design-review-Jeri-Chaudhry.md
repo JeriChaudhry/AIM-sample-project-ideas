@@ -47,6 +47,7 @@ If the model struggles with recognition, I will train the model to recognise eac
           and combine this to recognise the names, and then produce them digitally. 
 
 ![alt text](3.png)
+![alt text](5.jpeg)
 
 ## References
 
