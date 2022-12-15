@@ -45,23 +45,27 @@ If the model struggles with recognition, I will train the model to recognise eac
 
 **VIII)** This should result in a fine trained model which will successfully classify our text, including both lower-case and upper-case letters,
           and combine this to recognise the names, and then produce them digitally. 
-
-![alt text](3.png)
+          
+![alt text](5.jpeg)
 
 ## References
 
-Data set - https://www.kaggle.com/datasets/landlord/handwriting-recognition?resource=download
+[1] Data set - https://www.kaggle.com/datasets/landlord/handwriting-recognition?resource=download
 
-https://arxiv.org/pdf/2104.11892.pdf
+[2] Jonathan Chung. Handwriting recognition and language modeling with MXNet Gluon. https://medium.com/apache-mxnet/handwriting-ocr-handwriting-recognition-and-language-modeling-with-mxnet-gluon-4c7165788c67
 
-Jonathan Chung. Handwriting recognition and language modeling with MXNet Gluon. https://medium.com/apache-mxnet/handwriting-ocr-handwriting-recognition-and-language-modeling-with-mxnet-gluon-4c7165788c67
+[3] Liu, Li, et al. “Deep Learning for Generic Object Detection: A Survey.” International Journal of Computer Vision, vol. 128, no. 2, Feb. 2020, pp. 261–318. Springer Link, https://doi.org/10.1007/s11263-019-01247-4.
 
-Liu, Li, et al. “Deep Learning for Generic Object Detection: A Survey.” International Journal of Computer Vision, vol. 128, no. 2, Feb. 2020, pp. 261–318. Springer Link, https://doi.org/10.1007/s11263-019-01247-4.
+[4] Zaidi, Syed Sahil Abbas, et al. A Survey of Modern Deep Learning Based Object Detection Models. arXiv, 12 May 2021. arXiv.org, https://doi.org/10.48550/arXiv.2104.11892.
 
-Zaidi, Syed Sahil Abbas, et al. A Survey of Modern Deep Learning Based Object Detection Models. arXiv, 12 May 2021. arXiv.org, https://doi.org/10.48550/arXiv.2104.11892.
 
+<<<<<<< HEAD:Proposal/Object-Recognition-code-and-design-review-Jeri-Chaudhry.md
 <<<<<<< HEAD
 
 
 =======
 >>>>>>> aafd584fa7721735919cc2d23f224aa6453e7e63
+=======
+
+
+>>>>>>> 4d3cc1c8070c2bce38a8ab6a96714fc7a2c878b9:Object-Recognition-code-and-design-review-Jeri-Chaudhry.md
