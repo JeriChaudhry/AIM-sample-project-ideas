@@ -9,11 +9,11 @@ I will be using my selected data set to try to recoginise the hand-written names
 
 I will use batches of the images of the hand-written names to train the CNN and the classification models by updating the parameters after each epoch, in order for the model to recognise the text and be able to display a digitised version(s) of these names found in our dataset. Additionally, based on the success rate of my model, I will try to add to the dataset by introducing a number of new samples, representing names which aren't included in the dataset; in my own hand writing.
 
-![alt text](2.png)
+![alt text](Proposal/2.png)
 
 If the model struggles with recognition, I will train the model to recognise each letter of the alphabet, both in lowercase and uppercase forms, by creating a small dataset with my own hand written sample-set. If my model recognises these names successfully, and produces their digitised versions with an accuracy rate of 50%, I will consider this as a successful model for Object Recognition.
 
-![alt text](4.png)
+![alt text](Proposal/4.png)
 
 ### Datasets
 **Datasets Introduction:** The dataset I will be using for my handwriting recognition project contains 413,823 samples of handwritten names, consisting of both surnames and given names. These are split with 207,024 surnames and the remaining 206,799 being given names, all hand-written and scanned into this data set. 
@@ -22,7 +22,7 @@ If the model struggles with recognition, I will train the model to recognise eac
 
 **Challenges:** Due to the size of the Dataset zip folder of almost 1.5GB, it has been diffult to preview the quality and consistancy of the dataset, however based on the advisory, a small part of the dataset has repeat data, and I am also concious that not all the data will be suited for training this model.
 
-![alt text](1.png)
+![alt text](Proposal/1.png)
 
 ### Arcitecture Proposal
 
@@ -46,7 +46,7 @@ If the model struggles with recognition, I will train the model to recognise eac
 **VIII)** This should result in a fine trained model which will successfully classify our text, including both lower-case and upper-case letters,
           and combine this to recognise the names, and then produce them digitally. 
           
-![alt text](5.jpeg)
+![alt text](Proposal/5.jpeg)
 
 ## References
 
