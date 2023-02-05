@@ -2,27 +2,30 @@
 
 ## Abstract
 
-To create a model which correctly identifies an object within given data i.e. image/scene. 
-I will be using my selected data set to try to recoginise the hand-written names, letter by letter, and then combine them together to form the digitised text.
+To create a CNN model which correctly identifies an object within given data i.e. image/scene. 
+I will be using my selected dataset to try to recoginise the hand-written letters of the alphabet, from the EMNIST Letters dataset.Training the model to recognise each letter of the alphabet, both in lowercase and uppercase forms.
 
 ## Detailed Description
 
-I will use batches of the images of the hand-written names to train the CNN and the classification models by updating the parameters after each epoch, in order for the model to recognise the text and be able to display a digitised version(s) of these names found in our dataset. Additionally, based on the success rate of my model, I will try to add to the dataset by introducing a number of new samples, representing names which aren't included in the dataset; in my own hand writing.
+I will use batches of the images of the hand-written Alphabet Letters to train the CNN and the classification models by updating the parameters after each epoch, in order for the model to recognise the letter and be able to verify with its corresponding label. Additionally, based on the success rate of my model, I will try to add to the dataset by introducing a number of new samples, in my own hand writing to see how the model perfoms then.
+
+![alt text](1.png)
+
+If the model struggles with recognition of my own hand written data, I will stick with the dataset given, and only test the model using digitised image of a letter. If my model recognises these letters successfully in not only the training & validation but also the testing loops, with an accuracy rate of 90%, I will consider this as a successful model for Object Recognition with regards to my chosen EMNIST Letters dataset.
+
+
+### Datasets
+**Datasets Introduction:** The dataset I will be using for my recognition project contains 145,600 samples of handwritten letters of the english alphabet, consisting of an even share of both Uppercase and Lowercase Letters. 
+
+**Train & Validation, and Test Samples:** This dataset has already been split into two parts, with 85.71% allocated to training & validation, and 14.28% each towards testing purposes; this should serve my process well.
 
 ![alt text](2.png)
 
-If the model struggles with recognition, I will train the model to recognise each letter of the alphabet, both in lowercase and uppercase forms, by creating a small dataset with my own hand written sample-set. If my model recognises these names successfully, and produces their digitised versions with an accuracy rate of 50%, I will consider this as a successful model for Object Recognition.
 
-![alt text](4.png)
+**Challenges:** Due to the format & size of the Dataset, it has been diffult to preview the quality and consistancy of the dataset. This project will require some work to understand the dataset's binary formatting, and transforming it correctly for my model.
 
-### Datasets
-**Datasets Introduction:** The dataset I will be using for my handwriting recognition project contains 413,823 samples of handwritten names, consisting of both surnames and given names. These are split with 207,024 surnames and the remaining 206,799 being given names, all hand-written and scanned into this data set. 
+![alt text](3.png)
 
-**Train & Test Samples:** This dataset has already been split into three parts, with 80% allocated to training, and 10% each towards testing and validation purposes; this should serve my process well. 
-
-**Challenges:** Due to the size of the Dataset zip folder of almost 1.5GB, it has been diffult to preview the quality and consistancy of the dataset, however based on the advisory, a small part of the dataset has repeat data, and I am also concious that not all the data will be suited for training this model.
-
-![alt text](1.png)
 
 ### Arcitecture Proposal
 
@@ -41,17 +44,15 @@ If the model struggles with recognition, I will train the model to recognise eac
 **VII)** This should result in a fine trained model which will successfully classify our letters, including both lower-case and upper-case letters.
 
           
-![alt text](5.jpeg)
+![alt text](4.jpeg)
 
 ## References
 
-[1] Data set - https://www.kaggle.com/datasets/landlord/handwriting-recognition?resource=download
+[1] Cohen, Gregory, et al. "EMNIST: Extending MNIST to handwritten letters." 2017 international joint conference on neural networks (IJCNN). IEEE, 2017.
 
-[2] Jonathan Chung. Handwriting recognition and language modeling with MXNet Gluon. https://medium.com/apache-mxnet/handwriting-ocr-handwriting-recognition-and-language-modeling-with-mxnet-gluon-4c7165788c67
+[2] The EMNIST Dataset, https://www.nist.gov/itl/products-and-services/emnist-dataset, 2022.
 
-[3] Liu, Li, et al. “Deep Learning for Generic Object Detection: A Survey.” International Journal of Computer Vision, vol. 128, no. 2, Feb. 2020, pp. 261–318. Springer Link, https://doi.org/10.1007/s11263-019-01247-4.
-
-[4] Zaidi, Syed Sahil Abbas, et al. A Survey of Modern Deep Learning Based Object Detection Models. arXiv, 12 May 2021. arXiv.org, https://doi.org/10.48550/arXiv.2104.11892.
+[3] Baldominos A, et al. "A Survey of Handwritten Character Recognition with MNIST and EMNIST", 2019. 
 
 
 <<<<<<< HEAD:Proposal/Object-Recognition-code-and-design-review-Jeri-Chaudhry.md
