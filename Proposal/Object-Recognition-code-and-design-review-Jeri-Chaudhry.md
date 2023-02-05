@@ -26,25 +26,20 @@ If the model struggles with recognition, I will train the model to recognise eac
 
 ### Arcitecture Proposal
 
-**I)**   Firstly, I will set the value to the conventional kernels.
+**I)** Firstly set the value to the conventional kernels.
 
-**II)**  Then we will be passing the images containing the handwriting through the kernels, in order to convolute these images. 
+**II)** Then pass the images of the handwritten letters of the alaphabet through the kernels, in order to convolute these images.
 
-**III)** Once we've convoluted these images, we can pool the images and then activate them. 
-         (We can repeat the second and third steps until we get the desired effect)
+**III)** Once we've convoluted these images, we can pool the images and then activate them. (We can repeat the second and third steps until we get the desired effect).
 
-**IV)**  Then this will result in many images which represent partial features from the originally input images. 
+**IV)** Then this will result in many images which represent partial features from the originally input images.
 
-**V)**   The final images will now be laid out in order to generate our input layer of the fully-connected NN, and based off of this,
-         we will classify the batch of images.
+**V)** The final images will now be laid out in order to generate our input layer of the fully-connected Neural Network, and based off of this, we will classify the batch of images.
 
-**VI)**  We will then segmentate the letters and then try to find the edges for each letter individually.
+**VI)** In order to minimise the value of the cost function, we will update the value of the weight parameters after each trainng batch, until the accuracy reaches convergence.
 
-**VII)** In order to minimise the value of the cost funtion, we will update the value of the weight parameters after each trainng batch,
-         until the accuracy reaches convergence.
+**VII)** This should result in a fine trained model which will successfully classify our letters, including both lower-case and upper-case letters.
 
-**VIII)** This should result in a fine trained model which will successfully classify our text, including both lower-case and upper-case letters,
-          and combine this to recognise the names, and then produce them digitally. 
           
 ![alt text](5.jpeg)
 
